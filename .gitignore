@@ -1,0 +1,68 @@
+    # Arquivos de compilação Java
+*.class
+
+# Diretórios de build do Java
+bin/
+build/
+
+# Arquivos de build Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+
+# Maven Wrapper
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+mvnw
+mvnw.cmd
+
+# Eclipse IDE e m2e plugin gerados
+.project
+.classpath
+.settings/
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# NetBeans
+.nb-gradle/
+nbproject/
+
+# Gradle (caso haja integração)
+.gradle/
+build/
+
+# Arquivos temporários do sistema operacional
+.DS_Store
+Thumbs.db
+
+# Arquivos de log e temporários
+*.log
+*.tmp
+
+# Pacotes e builds
+*.jar
+*.war
+*.ear
+
+# Ignorar diretórios do projeto da faculdade
+**/Aula*/
+**/AC*/
+**/Classroom/
+
+# Arquivos compactados
+*.rar
+*.zip
+
+# Ignorar qualquer pasta .git, exceto a da raiz
+*/.git/
+*/.gitattributes/
+*/.gitignore/
