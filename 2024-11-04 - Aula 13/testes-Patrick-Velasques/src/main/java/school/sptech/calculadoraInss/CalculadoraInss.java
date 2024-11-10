@@ -19,4 +19,10 @@ public class CalculadoraInss {
         Double valorPago = salario * taxaInss / 100;
         return valorPago;
     }
+
+    public static void main(String[] args) {
+        CalculadoraInss calculadora = new CalculadoraInss();
+        Double retorno = calculadora.calcularInss(1412.00);
+        System.out.println(retorno);
+    }
 }
